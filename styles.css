@@ -1,0 +1,67 @@
+/* Estilo general del cuerpo y fondos */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Centrar el contenido principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para el título y el texto */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilizar el formulario y centrarlo */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para los inputs y botones */
+input[type="file"] {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+/* Estilos para la visualización de imágenes cargadas */
+#images {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#images img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.06);
+}
